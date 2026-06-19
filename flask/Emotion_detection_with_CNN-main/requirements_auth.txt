@@ -1,0 +1,33 @@
+# Core Flask dependencies
+Flask==3.0.0
+flask-socketio==5.6.1
+python-socketio==5.16.3
+flask-cors==6.0.2
+
+# Database
+flask-sqlalchemy==3.1.1
+SQLAlchemy==2.0.23
+
+# Authentication & Security
+flask-jwt-extended==4.7.0
+flask-bcrypt==1.0.1
+PyJWT==2.10.1
+werkzeug==3.0.1
+
+# Rate Limiting
+flask-limiter==4.0.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Password Hashing (included in werkzeug, but explicitly listing for clarity)
+# bcrypt is an alternative: flask-bcrypt==1.0.1
+
+# Existing project dependencies (keep these)
+nltk==3.9.4
+scikit-learn==1.8.0
+flask-pymongo==3.0.1
+pymongo==4.17.0
+
+# Optional but recommended for production
+gunicorn==21.2.0  # Production WSGI server
